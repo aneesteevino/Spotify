@@ -10,13 +10,16 @@ signup_btn.addEventListener('click',()=>{
 })
 
 
-let searchbtn=document.getElementById('searchbtn')
-searchbtn.addEventListener('click',()=>{
-    window.location.href='../search/search.html'
+let homebtn=document.getElementById('homebtn')
+homebtn.addEventListener('click',()=>{
+    window.location.href='../HOME/index.html'
+})
+
+let back=document.getElementById('back')
+back.addEventListener('click',()=>{
+    window.location.href='../HOME/index.html'
 })
 
 
-let All=document.getElementById('All')
-All.addEventListener('click',()=>{
-    window.location.href='../Popular/popular.html'
-})
+
+
