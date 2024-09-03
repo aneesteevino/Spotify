@@ -1,8 +1,3 @@
-let go=document.getElementById('go')
-go.addEventListener('click',()=>{
-    window.location.href='../HOME/index.html'
-})
-
 let Login=document.getElementById('Login')
 Login.addEventListener('click',()=>{
     window.location.href='../login/login.html';
@@ -21,5 +16,10 @@ searchbtn.addEventListener('click',()=>{
 
 let homebtn=document.getElementById('homebtn')
 homebtn.addEventListener('click',()=>{
+    window.location.href='../HOME/index.html'
+})
+
+let back=document.getElementById('back')
+back.addEventListener('click',()=>{
     window.location.href='../HOME/index.html'
 })

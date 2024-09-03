@@ -20,3 +20,28 @@ let All=document.getElementById('All')
 All.addEventListener('click',()=>{
     window.location.href='../Popular/popular.html'
 })
+
+
+let albums=document.getElementById('albums')
+albums.addEventListener('click',()=>{
+    window.location.href='../Albums/albums.html'
+})
+
+let charts=document.getElementById('charts')
+charts.addEventListener('click',()=>{
+    window.location.href='../Charts/charts.html'
+})
+
+
+let radio=document.getElementById('radio')
+radio.addEventListener('click',()=>{
+    window.location.href='../Radio/radio.html'
+})
+
+let sleep=document.getElementById('sleep')
+sleep.addEventListener('click',()=>{
+    window.location.href='../Zzzz/sleep.html'
+})
+
+
+
